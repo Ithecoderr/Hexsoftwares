@@ -5,3 +5,5 @@ class Expense:
         self.amount = amount
         self.category = category
         
+def __repr__(self):
+    return f"<Expense: {self.name}, {self.category}, ${self.amount:.2f} >"
