@@ -5,7 +5,6 @@ def main():
 
     # Get user input for expense.
     expense = get_user_expense()
-    print(expense)
 
     # Write their expense to a file.
     save_expense_to_file()
